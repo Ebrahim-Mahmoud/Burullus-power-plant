@@ -1,0 +1,35 @@
+work_net_gas:
+y = -1506.5x + 409881
+work_net_steam:
+y = -1534.9x + 444680
+work_module:
+y = -4541.1x + 1E+06
+eta_gas:
+y = -0.0003x + 0.4001
+eta_steam:
+y = -0.001x + 0.4311
+eta_combined:
+y = -0.0362x + 61.7
+heat rate:
+y = 3.527x + 5833.6
+temperature exit from turbine:
+y = 1.1292x + 611.37
+m_dot_air:
+y = -2.6486x + 854.77
+m_dot_fuel:
+y = -0.0705x + 22.791
+m_dot_gas:
+y = -5.4375x + 1755.1
+
+p_condenser:
+y = 7E-05x2 - 9E-05x + 0.0276
+low pressure pinch point:
+y = -0.0013x2 - 0.1896x + 30.702
+intermediate pressure pinch point:
+y = -0.0011x2 + 0.0683x + 23.812
+high pressure pinch point :
+y = 0.331x + 13.175
+m_dot_fuel_real:
+y = 0.0131x + 21.605
+
+

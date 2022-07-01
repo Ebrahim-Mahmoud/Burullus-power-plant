@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+    <button class="myButton" onclick="solve()">Solve table</button><br>
+    <table>
+        <th >Name</th>
+        <th >@ T<sub>1</sub>= <input type="number" id="T1" > &deg;C</th>
+        <th >@ T<sub>2</sub>= <input type="number" id="T2" > &deg;C</th>
+        <th >Percentage of change</th>
+
+        <tr>
+            <td class="subheading">Work<sub>gas</sub></td>
+            <td id="work_gas_1">-</td>
+            <td id="work_gas_2">-</td>
+            <td id="work_gas_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">W_net<sub>steam</sub></td>
+            <td id="work_st_1">-</td>
+            <td id="work_st_2">-</td>
+            <td id="work_st_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">W_net<sub>module</sub></td>
+            <td id="work_module_1">-</td>
+            <td id="work_module_2">-</td>
+            <td id="work_module_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">&eta;<sub>gas</sub></td>
+            <td id="eta_gas_1">-</td>
+            <td id="eta_gas_2">-</td>
+            <td id="eta_gas_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">&eta;<sub>steam</sub></td>
+            <td id="eta_st_1">-</td>
+            <td id="eta_st_2">-</td>
+            <td id="eta_st_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">&eta;<sub>combined</sub></td>
+            <td id="eta_comb_1">-</td>
+            <td id="eta_comb_2">-</td>
+            <td id="eta_comb_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">m&dot;<sub>air</sub></td>
+            <td id="m_air_1">-</td>
+            <td id="m_air_2">-</td>
+            <td id="m_air_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">m&dot;<sub>fuel</sub></td>
+            <td id="m_f_1">-</td>
+            <td id="m_f_2">-</td>
+            <td id="m_f_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">m&dot;<sub>gas</sub></td>
+            <td id="m_gas_1">-</td>
+            <td id="m_gas_2">-</td>
+            <td id="m_gas_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">Heat Rate</sub></td>
+            <td id="heat_rate_1">-</td>
+            <td id="heat_rate_2">-</td>
+            <td id="heat_rate_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">P<sub>condenser</sub></td>
+            <td id="p_cond_1">-</td>
+            <td id="p_cond_2">-</td>
+            <td id="p_cond_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">Turbine exit temperature</td>
+            <td id="T_turbine_1">-</td>
+            <td id="T_turbine_2">-</td>
+            <td id="T_turbine_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">low pressure pinch point</sub></td>
+            <td id="L_pinch_1">-</td>
+            <td id="L_pinch_2">-</td>
+            <td id="L_pinch_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">Intermediate pressure pinch point</sub></td>
+            <td id="I_pinch_1">-</td>
+            <td id="I_pinch_2">-</td>
+            <td id="I_pinch_change">-</td>
+        </tr>
+        <tr>
+            <td class="subheading">High pressure pinch point</sub></td>
+            <td id="H_pinch_1">-</td>
+            <td id="H_pinch_2">-</td>
+            <td id="H_pinch_change">-</td>
+        </tr>
+    
+    </table>
+    <script src='main.js'></script>
+</body>
+</html>
