@@ -1,0 +1,75 @@
+body {
+  /* background-image: url("photo.jpg"); */
+  background-image: url("p.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+table{
+    display: inline-block;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 2%;
+    font-size: 200%;
+    background-color: white;
+  }
+  tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 270px;
+
+  }
+  th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(82, 104, 116);
+    color: rgb(244, 255, 85);
+    width: 220px;
+  }
+
+.subheading{
+    background-color: rgb(247, 253, 191);
+    color: rgb(0, 0, 0);
+}
+#T1{
+  width: 70px;
+  /* padding-top: 10px; */
+  font-size: 22px;
+  text-align: center;
+}
+#T2{
+  width: 70px;
+  /* padding-top: 10px; */
+  font-size: 22px;
+  text-align: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+  margin-left: 500px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
