@@ -1,0 +1,10 @@
+w_net_steam
+y = 224122x + 418468
+m_gas_real
+y = 312.26x + 1699.2
+m_dot_steam
+y = 150.9x + 281.93
+m_dot_fuel
+y = 4.0899x + 22.065
+w gas
+y = -224122x + 781532

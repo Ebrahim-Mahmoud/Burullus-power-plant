@@ -1,0 +1,17 @@
+eta_combined : y = -10.977x + 60.421
+eta_gas: y = -0.1823x + 0.3935
+eta_steam :y = 1E-14x + 0.3981
+heat rate:y = 1101x + 5957.9
+w_net_gas:y = -522301x + 371713
+W_net_steam:y = -269698x + 398686
+W_module:y = -1E+06x + 1E+06
+m_dot_gas:y = -1597.4x + 1617.7
+m_dot_steam:y = -181.64x + 268.6
+m_dot_fuel:y = -20.73x + 21.009
+
+W_net_gas_real:y = -224122x + 781532
+W_net_steam_real:y = 224122x + 418468
+m_dot_gas_real:y = 312.26x + 1699.2
+m_dot_steam_real:y = 150.9x + 281.93
+m_dot_fuel_real:y = 4.0899x + 22.065
+
